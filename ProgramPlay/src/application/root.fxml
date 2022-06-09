@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="TOP_CENTER" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+	<padding>
+		<Insets bottom="10" left="10" right="10" top="10" />
+	</padding>
+	
+   <children>
+      <ImageView fitHeight="200.0" preserveRatio="true">
+         <image>
+            <Image url="@../../../javafx.png" />
+         </image>
+      </ImageView>
+      <HBox prefHeight="0.0" prefWidth="471.0">
+         <children>
+            <Button text="이전" />
+            <Button text="다음"> 
+            	<HBox.hgrow><Priority fx:constant="ALWAYS" /></HBox.hgrow>
+				<maxWidth><Double fx:constant="MAX_VALUE" /></maxWidth>
+			</Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
