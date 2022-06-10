@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" prefHeight="200" prefWidth="300">
+	<top>
+		<ToolBar>
+			<items>
+				<Butten text="Butten" />
+				<Butten text="Butten" />
+			</items>
+		</ToolBar>
+	</top>
+	<center>
+		<TextArea/>
+	</center>
+	<bottom>
+		<BorderPane>
+			<center>
+				<TextField/>
+			</center>
+			<right>
+				<Button tezt="butten"/>
+			</right>
+		</BorderPane>
+	</bottom>
+</BorderPane>
+

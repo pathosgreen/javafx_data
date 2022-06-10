@@ -2,5 +2,5 @@ module TestBuild {
 	requires javafx.controls;
 	requires javafx.fxml;
 	
-	opens application to javafx.graphics, javafx.fxml;
+	opens Page to javafx.graphics, javafx.fxml;
 }
