@@ -3,5 +3,5 @@ module D0610 {
 	requires javafx.fxml;
 	requires javafx.graphics;
 	
-	opens P885 to javafx.graphics, javafx.fxml;
+	opens P890 to javafx.graphics, javafx.fxml;
 }
