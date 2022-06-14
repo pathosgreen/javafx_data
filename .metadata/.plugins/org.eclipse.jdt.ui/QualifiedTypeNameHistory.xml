@@ -9,10 +9,8 @@
     <fullyQualifiedTypeName name="com.sun.media.jfxmediaimpl.platform.Platform"/>
     <fullyQualifiedTypeName name="javafx.scene.layout.HBox"/>
     <fullyQualifiedTypeName name="javafx.geometry.Insets"/>
-    <fullyQualifiedTypeName name="javafx.scene.control.TextField"/>
     <fullyQualifiedTypeName name="javafx.beans.Observable"/>
     <fullyQualifiedTypeName name="javafx.fxml.FXMLLoader"/>
-    <fullyQualifiedTypeName name="javafx.scene.Scene"/>
     <fullyQualifiedTypeName name="java.net.URL"/>
     <fullyQualifiedTypeName name="java.util.ResourceBundle"/>
     <fullyQualifiedTypeName name="javafx.event.EventHandler"/>
@@ -36,7 +34,6 @@
     <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
     <fullyQualifiedTypeName name="javafx.fxml.Initializable"/>
     <fullyQualifiedTypeName name="javafx.scene.control.TableView"/>
-    <fullyQualifiedTypeName name="javafx.fxml.FXML"/>
     <fullyQualifiedTypeName name="javafx.scene.image.ImageView"/>
     <fullyQualifiedTypeName name="javafx.scene.control.ListView"/>
     <fullyQualifiedTypeName name="javafx.collections.ObservableList"/>
@@ -50,4 +47,10 @@
     <fullyQualifiedTypeName name="javafx.scene.control.cell.PropertyValueFactory"/>
     <fullyQualifiedTypeName name="P906.Phone"/>
     <fullyQualifiedTypeName name="javafx.beans.property.SimpleStringProperty"/>
+    <fullyQualifiedTypeName name="model.Component"/>
+    <fullyQualifiedTypeName name="model.ComponentDAO"/>
+    <fullyQualifiedTypeName name="javafx.scene.Scene"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.TextField"/>
+    <fullyQualifiedTypeName name="javafx.fxml.FXML"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.PasswordField"/>
 </qualifiedTypeNameHistroy>

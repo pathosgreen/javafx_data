@@ -32,7 +32,7 @@ public class RootController implements Initializable {
 			public void changed(ObservableValue<? extends Toggle> observable, Toggle oldValue, Toggle newValue) {
 				
 				Image image = new Image(getClass().getResource(
-						"images/"+newValue.getUserData().toString()+".png").toString());
+						"images/"+newValue.getUserData().toString() + ".png").toString());
 				radioImageView.setImage(image);
 			}
 		} );
@@ -52,6 +52,7 @@ public class RootController implements Initializable {
 					"images/geek.gif").toString()));
 		}
 	}
+	
 	public void handleBtnExitAction(ActionEvent e) {
 		Platform.exit();
 	}
